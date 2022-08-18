@@ -2,6 +2,7 @@
 
 ## Used technologies 👀
 * React
+* MUI
 * GraphQL (with Apollo extension)
 * Wikipedia TextExtracts API 
 
