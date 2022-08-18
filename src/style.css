@@ -1,0 +1,130 @@
+body, html {
+  background: rgb(0, 149, 86);
+  background: linear-gradient(
+    215deg,
+    rgba(0, 149, 86, 1) 25%,
+    rgba(4, 0, 91, 1) 60%,
+    rgba(122, 0, 117, 1) 95%
+  );
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@font-face {
+  font-family: 'ArsenicaTrial';
+  src: URL('../public/ArsenicaTrial-Bold.ttf') format('truetype');
+  font-variant-numeric: normal;
+}
+
+@font-face {
+  font-family: 'GothamNumberOnly';
+  src: URL('../public/GothamBold.ttf') format('truetype');
+  unicode-range: U+30-39;
+}
+
+@font-face {
+  font-family: 'Gotham';
+  src: URL('../public/GothamBold.ttf') format('truetype');
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: white;
+  font-family: 'GothamNumberOnly', 'ArsenicaTrial', sans-serif;
+}
+
+a, p, li, label {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.9em;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.movie > * {
+  cursor: pointer;
+}
+
+@keyframes fade {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+.fadeDiv {
+  animation-name: fade;
+  animation-duration: 2s;
+}
+
+.top-space-sm {
+  margin-top: 5px;
+}
+
+.top-space-md {
+  margin-top: 10px;
+}
+
+.top-space-lg {
+  margin-top: 20px;
+}
+
+.bottom-space-sm {
+  margin-bottom: 5px;
+}
+
+.bottom-space-md {
+  margin-bottom: 10px;
+}
+
+.bottom-space-lg {
+  margin-bottom: 20px;
+}
+
+.left-space-sm {
+  margin-left: 5px;
+}
+
+.left-space-md {
+  margin-left: 10px;
+}
+
+.left-space-lg {
+  margin-left: 20px;
+}
+
+.right-space-sm {
+  margin-right: 5px;
+}
+
+.right-space-md {
+  margin-right: 10px;
+}
+
+.right-space-lg {
+  margin-right: 20px;
+}
+
+.flexRow {
+  display: flex;
+  flex-direction: row;
+}
+
+.noMargin {
+  margin: 0;
+}
+
+.centerAlign {
+  text-align: center;
+}
+
+.alignLeftWithMargin {
+  text-align: left;
+  margin-left: 10px;
+}
+

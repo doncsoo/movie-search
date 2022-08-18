@@ -1,0 +1,25 @@
+.score {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+}
+
+.movieItemName {
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.movieItemProperty {
+  margin-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 5px;
+}
+
+.minutesRatingDiv {
+  display: flex;
+  gap: 15px;
+  margin-left: 50px;
+}

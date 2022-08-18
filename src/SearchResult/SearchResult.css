@@ -1,0 +1,21 @@
+.resultRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.searchTerm {
+  margin-top: 12px;
+  margin-bottom: 0;
+  margin-left: 10px;
+}
+
+.searchedFor {
+  opacity: 0.5;
+}
+
+.smallPoster {
+  width: 124px;
+  height: 190px;
+  cursor: pointer;
+}
